@@ -8,8 +8,11 @@ and open the template in the editor.
     Author     : Ben Hay & Haris Cesko
 */
 
+//(c) Copywrite Ben Hay and Haris Cesko 2015
+
 html {
     font-family: sans-serif;
+    max-width: 60em;
 }
 
 body{
@@ -48,6 +51,14 @@ h3 {
 .ital {
     font-style: italic;
     font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+#italics {
+    font-style: italic;
 }
 
 p {

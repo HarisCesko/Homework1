@@ -4,7 +4,83 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Sep 27, 2015, 8:53:15 PM
-    Author     : hcesko
+    Created on : Sep 27, 2015, 8:53:04 PM
+    Author     : Ben Hay & Haris Cesko
 */
 
+//(c) Copywrite Ben Hay and Haris Cesko 2015
+
+html {
+    font-family: sans-serif;
+    max-width: 60em;
+}
+
+body{
+    padding: 2em;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 150%;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 118%;
+    margin: 0;
+    padding: 0;
+    padding-top: 1em;
+    text-decoration: underline; 
+}
+
+h3 {
+    margin: 0;
+}
+
+.date {
+    float: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.ital {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+#italics {
+    font-style: italic;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+@media screen and (max-width: 500px){
+    
+    .block {
+        display: block;
+    }
+    
+    #remove {
+        display: none;
+    }
+    
+    .date {
+        float: none;
+        display: block;
+    }
+}
